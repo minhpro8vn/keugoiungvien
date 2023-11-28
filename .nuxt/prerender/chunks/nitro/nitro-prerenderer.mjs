@@ -1,23 +1,23 @@
-globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/node-fetch-native/dist/polyfill.mjs';
-import { defineEventHandler, handleCacheHeaders, isEvent, createEvent, getRequestHeader, splitCookiesString, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, createError, getResponseHeader, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler } from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/h3/dist/index.mjs';
-import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/ofetch/dist/node.mjs';
-import destr from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/hookable/dist/index.mjs';
-import { snakeCase } from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/scule/dist/index.mjs';
-import { klona } from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, decodePath, withLeadingSlash, withoutTrailingSlash } from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/unstorage/drivers/fs.mjs';
-import unstorage_47drivers_47memory from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/unstorage/drivers/memory.mjs';
-import unstorage_47drivers_47lru_45cache from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/unstorage/drivers/lru-cache.mjs';
-import unstorage_47drivers_47fs_45lite from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/unstorage/drivers/fs-lite.mjs';
-import { toRouteMatcher, createRouter } from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/radix3/dist/index.mjs';
+globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import 'file:///home/minht/Documents/docu/insense/insense/node_modules/node-fetch-native/dist/polyfill.mjs';
+import { defineEventHandler, handleCacheHeaders, isEvent, createEvent, getRequestHeader, splitCookiesString, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, createError, getResponseHeader, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler } from 'file:///home/minht/Documents/docu/insense/insense/node_modules/h3/dist/index.mjs';
+import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///home/minht/Documents/docu/insense/insense/node_modules/ofetch/dist/node.mjs';
+import destr from 'file:///home/minht/Documents/docu/insense/insense/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file:///home/minht/Documents/docu/insense/insense/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file:///home/minht/Documents/docu/insense/insense/node_modules/hookable/dist/index.mjs';
+import { snakeCase } from 'file:///home/minht/Documents/docu/insense/insense/node_modules/scule/dist/index.mjs';
+import { klona } from 'file:///home/minht/Documents/docu/insense/insense/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file:///home/minht/Documents/docu/insense/insense/node_modules/defu/dist/defu.mjs';
+import { hash } from 'file:///home/minht/Documents/docu/insense/insense/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, decodePath, withLeadingSlash, withoutTrailingSlash } from 'file:///home/minht/Documents/docu/insense/insense/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file:///home/minht/Documents/docu/insense/insense/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///home/minht/Documents/docu/insense/insense/node_modules/unstorage/drivers/fs.mjs';
+import unstorage_47drivers_47memory from 'file:///home/minht/Documents/docu/insense/insense/node_modules/unstorage/drivers/memory.mjs';
+import unstorage_47drivers_47lru_45cache from 'file:///home/minht/Documents/docu/insense/insense/node_modules/unstorage/drivers/lru-cache.mjs';
+import unstorage_47drivers_47fs_45lite from 'file:///home/minht/Documents/docu/insense/insense/node_modules/unstorage/drivers/fs-lite.mjs';
+import { toRouteMatcher, createRouter } from 'file:///home/minht/Documents/docu/insense/insense/node_modules/radix3/dist/index.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve } from 'file:///home/minht/Documents/nuxt%20project/nuxt-project/node_modules/pathe/dist/index.mjs';
+import { dirname, resolve } from 'file:///home/minht/Documents/docu/insense/insense/node_modules/pathe/dist/index.mjs';
 
 const defineAppConfig = (config) => config;
 
@@ -129,7 +129,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"/home/minht/Documents/nuxt project/nuxt-project/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/home/minht/Documents/docu/insense/insense/server/assets"}];
 
 const assets$1 = createStorage();
 
@@ -144,11 +144,11 @@ storage.mount('/assets', assets$1);
 storage.mount('internal:nuxt:prerender', unstorage_47drivers_47memory({"driver":"memory"}));
 storage.mount('internal:nuxt:prerender:island', unstorage_47drivers_47lru_45cache({"driver":"lruCache","max":1000}));
 storage.mount('internal:nuxt:prerender:payload', unstorage_47drivers_47lru_45cache({"driver":"lruCache","max":1000}));
-storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"/home/minht/Documents/nuxt project/nuxt-project/.data/kv"}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/minht/Documents/nuxt project/nuxt-project","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/minht/Documents/nuxt project/nuxt-project/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/minht/Documents/nuxt project/nuxt-project/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/minht/Documents/nuxt project/nuxt-project/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"/home/minht/Documents/docu/insense/insense/.data/kv"}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/minht/Documents/docu/insense/insense","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/minht/Documents/docu/insense/insense/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/minht/Documents/docu/insense/insense/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/minht/Documents/docu/insense/insense/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -599,126 +599,126 @@ const assets = {
   "/burn.gif": {
     "type": "image/gif",
     "etag": "\"13fa8-Ue4EuHBW+Zxih7kod4HsB1jgxAA\"",
-    "mtime": "2023-11-27T16:55:32.301Z",
+    "mtime": "2023-11-28T01:24:44.711Z",
     "size": 81832,
     "path": "../../.output/public/burn.gif"
   },
   "/favicon.ico": {
     "type": "image/vnd.microsoft.icon",
     "etag": "\"10be-n8egyE9tcb7sKGr/pYCaQ4uWqxI\"",
-    "mtime": "2023-11-27T16:55:32.301Z",
+    "mtime": "2023-11-28T01:24:44.711Z",
     "size": 4286,
     "path": "../../.output/public/favicon.ico"
   },
   "/music.mp3": {
     "type": "audio/mpeg",
     "etag": "\"43882f-ydBhHXjFCrhU8qeUaHG4756z1ME\"",
-    "mtime": "2023-11-27T16:55:32.305Z",
+    "mtime": "2023-11-28T01:24:44.715Z",
     "size": 4425775,
     "path": "../../.output/public/music.mp3"
   },
   "/oillamp.png": {
     "type": "image/png",
     "etag": "\"3934f-Rqyz/lZkM74Wr8M0q7lrYfj4QJY\"",
-    "mtime": "2023-11-27T16:55:32.301Z",
+    "mtime": "2023-11-28T01:24:44.711Z",
     "size": 234319,
     "path": "../../.output/public/oillamp.png"
   },
   "/smoke.gif": {
     "type": "image/gif",
     "etag": "\"125fe-BjDtcT+He1+Vbr07BGCnzwtHc0A\"",
-    "mtime": "2023-11-27T16:55:32.301Z",
+    "mtime": "2023-11-28T01:24:44.711Z",
     "size": 75262,
     "path": "../../.output/public/smoke.gif"
   },
   "/_nuxt/burn.98664424.gif": {
     "type": "image/gif",
     "etag": "\"13fa8-Ue4EuHBW+Zxih7kod4HsB1jgxAA\"",
-    "mtime": "2023-11-27T16:55:32.277Z",
+    "mtime": "2023-11-28T01:24:44.699Z",
     "size": 81832,
     "path": "../../.output/public/_nuxt/burn.98664424.gif"
   },
   "/_nuxt/default.b04b097c.js": {
     "type": "application/javascript",
     "etag": "\"bb-DXp0VTQmBA8iGW0LNrw3hzsuiyo\"",
-    "mtime": "2023-11-27T16:55:32.277Z",
+    "mtime": "2023-11-28T01:24:44.699Z",
     "size": 187,
     "path": "../../.output/public/_nuxt/default.b04b097c.js"
   },
   "/_nuxt/entry.9034f997.js": {
     "type": "application/javascript",
     "etag": "\"22af6-/HUjV7eFtkq4Q7gOLT9rZNLBv/U\"",
-    "mtime": "2023-11-27T16:55:32.277Z",
+    "mtime": "2023-11-28T01:24:44.699Z",
     "size": 142070,
     "path": "../../.output/public/_nuxt/entry.9034f997.js"
   },
   "/_nuxt/error-404.7fc72018.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"e2e-iNt1cqPQ0WDudfCTZVQd31BeRGs\"",
-    "mtime": "2023-11-27T16:55:32.277Z",
+    "mtime": "2023-11-28T01:24:44.699Z",
     "size": 3630,
     "path": "../../.output/public/_nuxt/error-404.7fc72018.css"
   },
   "/_nuxt/error-404.fc150e26.js": {
     "type": "application/javascript",
     "etag": "\"188a-KZFMoXG8PiIJxxKvrE2pk/OHhzg\"",
-    "mtime": "2023-11-27T16:55:32.277Z",
+    "mtime": "2023-11-28T01:24:44.699Z",
     "size": 6282,
     "path": "../../.output/public/_nuxt/error-404.fc150e26.js"
   },
   "/_nuxt/error-500.5a461ec4.js": {
     "type": "application/javascript",
     "etag": "\"77e-nwxHWDKFVAL1KNpsRPV/3rZE3YM\"",
-    "mtime": "2023-11-27T16:55:32.277Z",
+    "mtime": "2023-11-28T01:24:44.703Z",
     "size": 1918,
     "path": "../../.output/public/_nuxt/error-500.5a461ec4.js"
   },
   "/_nuxt/error-500.c5df6088.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"79e-ByRo+49BgcevWdRjJy3CMx2IA5k\"",
-    "mtime": "2023-11-27T16:55:32.277Z",
+    "mtime": "2023-11-28T01:24:44.699Z",
     "size": 1950,
     "path": "../../.output/public/_nuxt/error-500.c5df6088.css"
   },
   "/_nuxt/index.d583ad4c.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"4f9-oTQdngDd9LrJS3JsLgSstRAfl1E\"",
-    "mtime": "2023-11-27T16:55:32.277Z",
+    "mtime": "2023-11-28T01:24:44.699Z",
     "size": 1273,
     "path": "../../.output/public/_nuxt/index.d583ad4c.css"
   },
   "/_nuxt/index.ed83df9f.js": {
     "type": "application/javascript",
     "etag": "\"67d-9COyC1OJF5/Yx54P6KUX9wDuXAs\"",
-    "mtime": "2023-11-27T16:55:32.277Z",
+    "mtime": "2023-11-28T01:24:44.699Z",
     "size": 1661,
     "path": "../../.output/public/_nuxt/index.ed83df9f.js"
   },
   "/_nuxt/music.0efc6244.mp3": {
     "type": "audio/mpeg",
     "etag": "\"43882f-ydBhHXjFCrhU8qeUaHG4756z1ME\"",
-    "mtime": "2023-11-27T16:55:32.285Z",
+    "mtime": "2023-11-28T01:24:44.703Z",
     "size": 4425775,
     "path": "../../.output/public/_nuxt/music.0efc6244.mp3"
   },
   "/_nuxt/oillamp.723bcfda.png": {
     "type": "image/png",
     "etag": "\"3934f-Rqyz/lZkM74Wr8M0q7lrYfj4QJY\"",
-    "mtime": "2023-11-27T16:55:32.281Z",
+    "mtime": "2023-11-28T01:24:44.703Z",
     "size": 234319,
     "path": "../../.output/public/_nuxt/oillamp.723bcfda.png"
   },
   "/_nuxt/smoke.ccdaa024.gif": {
     "type": "image/gif",
     "etag": "\"125fe-BjDtcT+He1+Vbr07BGCnzwtHc0A\"",
-    "mtime": "2023-11-27T16:55:32.281Z",
+    "mtime": "2023-11-28T01:24:44.703Z",
     "size": 75262,
     "path": "../../.output/public/_nuxt/smoke.ccdaa024.gif"
   },
   "/_nuxt/vue.f36acd1f.51dc33ec.js": {
     "type": "application/javascript",
     "etag": "\"186-vCyWbUa/BrcuwR65ohtflyAEIyo\"",
-    "mtime": "2023-11-27T16:55:32.277Z",
+    "mtime": "2023-11-28T01:24:44.703Z",
     "size": 390,
     "path": "../../.output/public/_nuxt/vue.f36acd1f.51dc33ec.js"
   }
@@ -814,11 +814,11 @@ const _f4b49z = eventHandler((event) => {
   return readAsset(id);
 });
 
-const _lazy_tgSOBX = () => import('../renderer.mjs').then(function (n) { return n.r; });
+const _lazy_oabdwS = () => import('../renderer.mjs').then(function (n) { return n.r; });
 
 const handlers = [
   { route: '', handler: _f4b49z, lazy: false, middleware: true, method: undefined },
-  { route: '/**', handler: _lazy_tgSOBX, lazy: true, middleware: false, method: undefined }
+  { route: '/**', handler: _lazy_oabdwS, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
